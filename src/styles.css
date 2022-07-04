@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.left-to-do{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button{
+    border-color: red;
+    border-radius: 10px;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    border-color: green;
+    border-radius: 0px;
+}
