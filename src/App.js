@@ -1,5 +1,6 @@
 import React, {useState, useRef} from 'react';
 import TodoList from './TodoList';
+import Headersection from './Headersection';
 import './styles.css'
 
 function App() { 
@@ -35,6 +36,7 @@ function App() {
   }
   return (
     <>
+      <Headersection/>
       <TodoList todos={todos} toggleTodo={toggleTodo}/>
       <input ref={todoNameRef}type = "text"></input>
       <button onClick={handleAddTodo} className="button">Add Todo</button>
