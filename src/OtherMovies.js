@@ -1,7 +1,14 @@
 import React from 'react'
+import MovieRow from './MovieRow'
 
 export default function OtherMovies() {
   return (
-    <div>OtherMovies</div>
+    <div>
+        <MovieRow/>
+        <MovieRow/>
+        <MovieRow/>
+
+
+    </div>
   )
 }
