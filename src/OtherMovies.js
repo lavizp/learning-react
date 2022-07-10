@@ -4,9 +4,9 @@ import MovieRow from './MovieRow'
 export default function OtherMovies() {
   return (
     <div>
-        <MovieRow/>
-        <MovieRow/>
-        <MovieRow/>
+        <MovieRow title = "Featured"/>
+        <MovieRow title = "Featured"/>
+        <MovieRow title = "Featured"/>
 
 
     </div>

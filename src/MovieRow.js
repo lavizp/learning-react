@@ -2,11 +2,11 @@ import React from 'react'
 import "./proj.css"
 import Movie from './Movie'
 
-export default function MovieRow() {
+export default function MovieRow(props) {
   return (
     <div>
         <div className='rowContainer'>
-            <h1>Featured:</h1>
+            <h1>{props.title}:</h1>
             <div className='movielistflexcontainer'>
                 <Movie/>
                 <Movie/>
