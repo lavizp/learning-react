@@ -1,149 +1,117 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100%;
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
-}
+  }
+  
+  .navbar-item {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
 
-
-.Navbar h1{
-    color: red;
-    font-size: 40px;
-    margin-left: 80px;
-
-}
-.Navbar{
-    color: white;
-
+  .about-us {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .about-us-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: left;
-    background: rgba(0,0,0,0.3 );
-}
+  }
+  
+  .about-us-description {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-us-images {
+    display: flex;
+  }
+  
+  .about-us-image {
+    width: 150px;
+    margin-right: 10px;
+  }
 
 
-.Navbar ul{
-    margin-top: 10px;
-    list-style-type:none;
-    margin-left: 70px;
-}
 
-.Navbar ul li{
-    font-size: 20px;
-    float: left;
-    margin-left: 30px;
-}
-.Navbar ul li a:hover{
+
+  .contact-us {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .contact-us-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
     font-weight: bold;
-}
-
-.BackgroundImage{
-    background-image: url(background.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    position: relative;
-    width: 100%;
-    height: 500px;
-    opacity: 0.8;
-}
-.DetailsContainer{
-    color: white;
-    width: 40%;
-    height: 300px;
-    margin: 100px 80px;
-}
-
-.Points{
-    display: flex;
-    align-items: center;
-
-}
-
-.Points h5{
-    margin: 4px 10px;
-    font-size: 15px;
-}
-
-.Points h3{
-    font-size: 15px;
-    color: green;
-}
-
-.DetailsContainer p{
-    font-size: 15px;
-    color: #ebe8e8;
-}
-
-.buttonContainers{
-    display: flex;
-
-}
-
-.Button{
+  }
+  
+  input,
+  textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
     border: none;
-    border-radius: 5px;
-    height: 40px;
-    width: 100px;
-    transition: all .2s ease-in-out;
-}
-.PlayButton{
-    background-color: white;
-    color: black;
-    margin-right: 10px;
-    margin-top: 10px;
-    
-}
-.MoreButton{
-    background-color:#4a4a4a;
-    color: white;
-    margin: 10px;
-    width: 150px;
-}
-
-.Button:hover{
-    transform: scale(1.1);
-}
-
-.rowContainer{
-    margin: 10px 80px;
-    width: 100%;
-    height: 300px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
 
-}
-.rowContainer h1{
-    font-size: 20px;
-}
-.MovieContainers{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    transition: all .2s ease-in-out;
 
-}
-.IndiMovie{
-    background-color: red;
-    width: 150px;
-    height: 200px;
-    margin-top: 10px;
-    margin-right: 10px;
-    transition: all .2s ease-in-out;
-
-}
-
-.IndiMovie :hover{
-    transform: scale(3.1);
-    
-}
-.movielistflexcontainer{
-    display: flex;
-}
-
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin: 0;
+  }
